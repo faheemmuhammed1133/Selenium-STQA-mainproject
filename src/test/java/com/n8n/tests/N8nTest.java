@@ -46,6 +46,9 @@ public class N8nTest extends BaseTest {
 
     @Test(priority = 1)
     public void TC01_LoginSuccess() {
+        System.out.println("Base URL = " + baseUrl);
+System.out.println("Email = " + email);
+System.out.println("Workflow = " + workflowId);
 
         login(email, password);
 
