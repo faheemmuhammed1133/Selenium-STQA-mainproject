@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-19T00:23:06 IST" name="Surefire suite" finished-at="2026-06-19T00:23:36 IST" duration-ms="29776">
+    <groups>
+    </groups>
+    <test started-at="2026-06-19T00:23:06 IST" name="Surefire test" finished-at="2026-06-19T00:23:36 IST" duration-ms="29776">
+      <class name="N8nTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:06 IST" name="setup" finished-at="2026-06-19T00:23:10 IST" duration-ms="3399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC01_LoginSuccess()[pri:1, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:10 IST" name="TC01_LoginSuccess" finished-at="2026-06-19T00:23:12 IST" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginSuccess -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:12 IST" name="tearDown" finished-at="2026-06-19T00:23:12 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:12 IST" name="setup" finished-at="2026-06-19T00:23:14 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC02_InvalidLogin()[pri:2, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:14 IST" name="TC02_InvalidLogin" finished-at="2026-06-19T00:23:16 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:16 IST" name="tearDown" finished-at="2026-06-19T00:23:16 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:16 IST" name="setup" finished-at="2026-06-19T00:23:18 IST" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC03_VerifyWorkflowLoads()[pri:3, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:18 IST" name="TC03_VerifyWorkflowLoads" finished-at="2026-06-19T00:23:21 IST" duration-ms="3422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_VerifyWorkflowLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:21 IST" name="tearDown" finished-at="2026-06-19T00:23:21 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:21 IST" name="setup" finished-at="2026-06-19T00:23:22 IST" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC04_VerifyNodeIssues()[pri:4, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:22 IST" name="TC04_VerifyNodeIssues" finished-at="2026-06-19T00:23:26 IST" duration-ms="3666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_VerifyNodeIssues -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:26 IST" name="tearDown" finished-at="2026-06-19T00:23:26 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:26 IST" name="setup" finished-at="2026-06-19T00:23:28 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC05_ExecuteWorkflowFailure()[pri:5, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:28 IST" name="TC05_ExecuteWorkflowFailure" finished-at="2026-06-19T00:23:32 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_ExecuteWorkflowFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:32 IST" name="tearDown" finished-at="2026-06-19T00:23:32 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:32 IST" name="setup" finished-at="2026-06-19T00:23:33 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC06_VerifyExecutionHistory()[pri:6, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:33 IST" name="TC06_VerifyExecutionHistory" finished-at="2026-06-19T00:23:36 IST" duration-ms="2363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_VerifyExecutionHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:N8nTest@7fc229ab]" started-at="2026-06-19T00:23:36 IST" name="tearDown" finished-at="2026-06-19T00:23:36 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- N8nTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
