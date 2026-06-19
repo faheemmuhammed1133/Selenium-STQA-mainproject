@@ -111,22 +111,23 @@ Tests run in priority order (1 → 6). Several tests depend on a successful logi
 
 | # | Test Method | Priority | Purpose |
 |---|---|---|---|
-| TC01 | `TC01_LoginSuccess` | 1 | Logs in with valid credentials; asserts redirect to `/home` or `/workflows` |
+### | TC01 | `TC01_LoginSuccess` | 1 | Logs in with valid credentials; asserts redirect to `/home` or `/workflows` |
+
 ![TC01 result](screenshots/TC01_LoginSuccess.png)
 
-| TC02 | `TC02_InvalidLogin` | 2 | Logs in with deliberately invalid credentials; asserts the "Wrong username or password" toast appears |
+### | TC02 | `TC02_InvalidLogin` | 2 | Logs in with deliberately invalid credentials; asserts the "Wrong username or password" toast appears |
 ![TC02 result](screenshots/TC02_InvalidLogin.png)
 
-| TC03 | `TC03_VerifyWorkflowLoads` | 3 | Opens the target workflow by ID; asserts an "AI Agent" node is visible on the canvas |
+### | TC03 | `TC03_VerifyWorkflowLoads` | 3 | Opens the target workflow by ID; asserts an "AI Agent" node is visible on the canvas |
 ![TC03 result](screenshots/TC03_VerifyWorkflowLoads.png)
 
-| TC04 | `TC04_VerifyNodeIssues` | 4 | Opens the workflow; asserts at least one node-issue indicator (`[data-test-id='node-issues']`) is present |
+### | TC04 | `TC04_VerifyNodeIssues` | 4 | Opens the workflow; asserts at least one node-issue indicator (`[data-test-id='node-issues']`) is present |
 ![TC04 result](screenshots/TC04_VerifyNodeIssues.png)
 
-| TC05 | `TC05_ExecuteWorkflowFailure` | 5 | Opens the chat panel, sends "hi", and asserts an error notification (`.el-notification--error`) appears |
+### | TC05 | `TC05_ExecuteWorkflowFailure` | 5 | Opens the chat panel, sends "hi", and asserts an error notification (`.el-notification--error`) appears |
 ![TC05 result](screenshots/TC05_ExecuteWorkflowFailure.png)
 
-| TC06 | `TC06_VerifyExecutionHistory` | 6 | Navigates to `/home/executions`; asserts the most recent execution row shows status "Error" |
+### | TC06 | `TC06_VerifyExecutionHistory` | 6 | Navigates to `/home/executions`; asserts the most recent execution row shows status "Error" |
 ![TC06 result](screenshots/TC06_VerifyExecutionHistory.png)
 
 
